@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTY DX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: black;
+            color: #cccccc;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+            min-height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo {
+            width: auto;
+            height: auto;
+            max-width: 230px;
+            margin: 0 auto 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            font-size: 12px;
+            color: #666;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <p>Where x meets infinite possibility, and every differential reveals the next breakthrough.</p>
+        <p>Exploring the unknown. Transforming the impossible.</p>
+    </div>
+    
+    <div class="footer">
+        Copyright © 2024 XTY AI PTE. LTD. All Rights Reserved.
+    </div>
+</body>
+</html>
